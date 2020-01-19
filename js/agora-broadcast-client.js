@@ -3,7 +3,7 @@
  */
 
 var agoraAppId = "ff234c8140714304a0a1ff6b1208842f"; // set app id
-var channelName = "broadcasting"; // set channel name
+var channelName = "testing2"; // set channel name
 
 // create client instance
 var client = AgoraRTC.createClient({ mode: "live", codec: "vp8" }); // h264 better detail at a higher motion
@@ -236,7 +236,7 @@ function leaveChannel() {
 
 // use tokens for added security
 function generateToken() {
-  return "006ff234c8140714304a0a1ff6b1208842fIACeZ9WVzUYJU+1x33vFdaVxsougj5UWA1YXJJanePHZ+L/e0GoAAAAAEADAFXCRQTokXgEAAQBBOiRe"; // TODO: add a token generation
+  return "006ff234c8140714304a0a1ff6b1208842fIADqP+CbBOXxlVdItNxpK9mXQ24o+haOfIbsYFsTGMq6i2LoXvMAAAAAEADAFXCR7NYkXgEAAQDr1iRe"; // TODO: add a token generation
 }
 
 function changeStreamSource(deviceIndex, deviceType) {
